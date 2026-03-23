@@ -23,3 +23,5 @@ greetBtn.addEventListener("click", () => {
 clearBtn.addEventListener("click", () => {
   output.textContent = "Output will appear here.";
 });
+
+subtitle.textContent = "This dashboard";
