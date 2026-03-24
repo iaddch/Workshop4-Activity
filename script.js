@@ -50,7 +50,6 @@ clearBtn.addEventListener("click", () => {
 // ── TASKS: code below this line ────────────────────────────
 
 const multiply = (a,b) => a*b;
-let product;
 multiplyBtn.addEventListener("click", () => {
     const result = multiply(Number(num1.value), Number(num2.value));
     calcResult.textContent = 'Result: $(result)';
