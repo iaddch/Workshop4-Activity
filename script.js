@@ -54,3 +54,9 @@ multiplyBtn.addEventListener("click", () => {
     const result = multiply(Number(num1.value), Number(num2.value));
     calcResult.textContent = `Result: ${result}`;
 });
+
+const subtract = (a,b) => a-b;
+subtractBtn.addEventListener("click", () => {
+    const result = subtract(Number(num1.value), Number(num2.value));
+    calcResult.textContent = `Result: ${result}`;
+});
